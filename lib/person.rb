@@ -65,5 +65,10 @@ class Person
       return "Hi #{friend.name}! It's #{self.name}. How are you?"
       #binding.pry
   end 
+  def start_conversation(person, topic)
+    
+  end 
+  
+  
   
 end 
