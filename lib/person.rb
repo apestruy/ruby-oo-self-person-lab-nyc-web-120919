@@ -62,7 +62,7 @@ class Person
       @happiness += 3
       self.happiness=(happiness)
       friend.happiness += 3
-      return "Hi #{friend.name}! It's Stella. How are you?"
+      return "Hi #{friend.name}! It's #{self.name}. How are you?"
       #binding.pry
   end 
   
