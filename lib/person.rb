@@ -59,8 +59,8 @@ class Person
     return "♪ another one bites the dust ♫"
   end 
   def call_friend(caller)
+      binding.pry 
     caller = Person.new
-    binding.pry 
   end 
   
 end 
