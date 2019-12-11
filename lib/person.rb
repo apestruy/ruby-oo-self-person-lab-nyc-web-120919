@@ -58,9 +58,10 @@ class Person
     self.hygiene=(hygiene)
     return "♪ another one bites the dust ♫"
   end 
-  def call_friend(caller)
+  def call_friend(friend)
       @happiness += 3
       self.happiness=(happiness)
+      binding.pry
   end 
   
 end 
