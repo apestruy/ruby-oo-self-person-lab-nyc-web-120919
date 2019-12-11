@@ -62,6 +62,7 @@ class Person
       @happiness += 3
       self.happiness=(happiness)
       friend.happiness += 3
+      return ""
       #binding.pry
   end 
   
