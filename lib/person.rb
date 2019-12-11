@@ -70,7 +70,8 @@ class Person
     if topic == "weather"
       self.happiness += 2 
       person.happiness += 2 
-      return 
+      return "blah blah sun blah rain"
+    end 
   end 
   
   
