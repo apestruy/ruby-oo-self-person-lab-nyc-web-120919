@@ -33,6 +33,12 @@ class Person
       false 
     end 
   end 
-  
+  def clean?
+    if @hygiene > 7
+      return true
+    else 
+      false
+    end 
+  end 
   
 end 
