@@ -58,7 +58,7 @@ class Person
     return "♪ another one bites the dust ♫"
   end 
   def call_friend(caller)
-    self.caller.happiness += 3
+    caller.happiness=(happiness) += 3
     
   end 
   
