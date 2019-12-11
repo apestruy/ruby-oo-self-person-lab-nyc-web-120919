@@ -66,7 +66,10 @@ class Person
       #binding.pry
   end 
   def start_conversation(person, topic)
-    
+    if topic == "politics"
+      self.happiness=(happiness) -= 1 
+      person.happiness -= 1 
+      return ""
   end 
   
   
