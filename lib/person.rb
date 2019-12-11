@@ -44,7 +44,10 @@ class Person
     @bank_account += salary
     return "all about the benjamins"
   end 
-  
+  def take_bath
+    @hygiene += 4
+    return 
+  end 
   
   
 end 
