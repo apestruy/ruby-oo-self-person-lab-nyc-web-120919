@@ -60,7 +60,6 @@ class Person
   end 
   def call_friend(caller)
       binding.pry 
-    caller = Person.new
   end 
   
 end 
