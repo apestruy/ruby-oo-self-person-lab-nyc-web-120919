@@ -47,8 +47,8 @@ class Person
     return "all about the benjamins"
   end 
   def take_bath
-   @hygiene += 4 
-   self.hygiene=(hygiene)
+   self.hygiene += 4 
+   #self.hygiene=(hygiene)
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end 
   def work_out
