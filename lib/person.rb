@@ -1,4 +1,5 @@
 # your code goes here
+require 'pry'
 class Person 
  attr_reader :name, :happiness, :hygiene
  attr_accessor :bank_account
@@ -58,8 +59,8 @@ class Person
     return "♪ another one bites the dust ♫"
   end 
   def call_friend(caller)
-    caller = Person.new 
-    
+    caller = Person.new
+    binding.pry 
   end 
   
 end 
