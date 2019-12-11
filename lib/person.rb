@@ -59,9 +59,9 @@ class Person
     return "♪ another one bites the dust ♫"
   end 
   def call_friend(friend)
-      self.happiness= 3
+      self.happiness += 3
       self.happiness=(happiness)
-      friend.happiness= 3
+      friend.happiness += 3
       return "Hi #{friend.name}! It's #{self.name}. How are you?"
       #binding.pry
   end 
